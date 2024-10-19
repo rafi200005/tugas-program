@@ -265,7 +265,7 @@ dan ini hasil program tersebut:
 
 dengan screenshot kode program yang saya miliki: 
 
-![Screenshot 2024-10-19 144112](https://github.com/user-attachments/assets/1239532f-ddbf-489e-bc73-2a1ac9d8d136)
+![Screenshot 2024-10-19 144941](https://github.com/user-attachments/assets/6d725432-8b18-4083-b614-3765c39647be)
 
 dan hasil flowchart dari program tersebut:
 
