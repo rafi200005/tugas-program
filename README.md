@@ -26,3 +26,16 @@ Pembahasan Mengenai :
 
 # String Format
 
+# PENGGUNAAN END
+
+![377455340-2bf9fa7a-756c-49eb-95ad-c3b2f0d11b36](https://github.com/user-attachments/assets/66214e7c-5433-4d0e-9d88-1c4f98be8a8d)
+
+```python
+print('A', end='')
+print('B', end='')
+print('C', end='')
+print()
+print('X')
+print('Y')
+print('Z')
+````
