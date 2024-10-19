@@ -1,4 +1,5 @@
 #BIODATA
+
 NAMA : MUHAMMAD RAFI ALBANI RASYIN
 
 KELAS : TI.24.A.4
@@ -9,5 +10,5 @@ MATKUL : BAHASA PEMROGRAMAN
 
 #TUGAS LATIHAN 
 
-
+![377445480-73d90a5f-3d61-4756-a812-177fc694c4a7](https://github.com/user-attachments/assets/936ed331-de58-4aee-8f10-d2b811925fff)
 
