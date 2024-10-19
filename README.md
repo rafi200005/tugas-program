@@ -50,5 +50,9 @@ Secara Default, fungsi print() akan mengakhiri dengan baris baru, dan akan secar
 
 ini hasil program tersebut :
 
-sshasilpenggunaanlatihan1p3
+![377488504-e1269cc5-7a35-46e1-9769-510bf9a35d4d](https://github.com/user-attachments/assets/2e50e6fd-6066-4d1c-bdcd-f3a360325d8a)
+
+dan ini hasil tanpa menggunakan fungsi `print()` di tengah pada kode program di atas :
+
+![377491703-a2775246-1374-4d7d-a64c-d67a4592309b](https://github.com/user-attachments/assets/2cd3ff76-d0f8-4944-916b-603ba2803420)
 
