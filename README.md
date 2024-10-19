@@ -209,6 +209,65 @@ Ini adala hasil program tersebut :
 
 dengan eksekusi program :
 
+![Screenshot 2024-10-19 134831](https://github.com/user-attachments/assets/e2aa3dae-9e6c-4384-b136-bdfd7a6611ae)
 
+dan flowchart sebagai berikut : 
 
+![377560153-e78cf387-c05a-484a-a6e8-3c1cd627ee54](https://github.com/user-attachments/assets/7eb26e60-940d-49c8-ba9e-773085d6d57e)
+
+# MENENTUKAN BILANGAN TERBESAR DARI N DAN BERIKAN ANGKA 0
+
+```python
+while True:   
+    N = int(input("masukan angka: "))
+
+    if N == 0:
+        print(f"angaka terbesar adalah: {max}")
+        break
+    if N > max:
+        max = N
+````
+
+Untuk menentukan bilangan terbesar dari n dalam Python, Anda bisa menggunakan fungsi max()
+
+```python
+max = 0
+````
+
+Masukkan daftar angka ke fungsi max(), Fungsi max() akan mengembalikan angka terbesar dalam daftar
+
+Fungsi `max()` adalah fungsi bawaan Python yang berguna untuk menemukan nilai terbesar dalam suatu iterable atau dalam serangkaian argumen reguler.
+
+```python
+if N == 0:
+        print(f"angka yang terbesar adalah: {max}")
+        break
+````
+
+Fungsi ini jika Kita memasukan inputan integer yaitu 0 akan berlanjut ke fungsi break program dihentikan yang artinya selesai.
+
+```python
+if N > max:
+        max = N
+````
+
+Jika Inputan yang kita masukan lebih besar dari fungsi max() di atas, program akan melanjutkan ke proses max = N yang artinya Angka terbesar akan Mencetak Inputan Bilangan yang kita masukan yang terbesar di cetak
+
+```python
+while True:
+````
+
+While true: adalah konstruksi perulangan dalam bahasa pemrograman Python yang memungkinkan blok kode diulang tanpa batas. dan karna di kode program diatas ada fungsi While True: Program terus berlanjut terus menerus, dan ketika kita ingin berhenti saya berikan decision N==0 dengan fungsi di bawahnya break seperti di atas yang berarti Inputan Integer yang di masukan angka 0 program akan di hentikan dan memunculkan cetakan yang terbesar
+
+dan ini hasil program tersebut: 
+
+![377864890-3d432805-856a-4582-8b1b-8f8a3a56a1d4](https://github.com/user-attachments/assets/95d20feb-cff5-49e8-8562-1a3b9449c6bf)
+
+dengan screenshot kode program yang saya miliki: 
+
+![Screenshot 2024-10-19 144112](https://github.com/user-attachments/assets/1239532f-ddbf-489e-bc73-2a1ac9d8d136)
+
+dan hasil flowchart dari program tersebut:
+
+![377865621-4fbfeb33-c0a1-4f4b-ba53-481ce76271ab](https://github.com/user-attachments/assets/77b87bae-f869-42d7-b51e-c1cbb1daf42d)
 
