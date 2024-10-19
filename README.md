@@ -56,7 +56,7 @@ dan ini hasil tanpa menggunakan fungsi `print()` di tengah pada kode program di 
 
 ![377491703-a2775246-1374-4d7d-a64c-d67a4592309b](https://github.com/user-attachments/assets/2cd3ff76-d0f8-4944-916b-603ba2803420)
 
-## PENGGUNAAN SEPERATOR
+# PENGGUNAAN SEPERATOR
 
 ![377494080-2ff0ca65-d1c7-45b0-8ab9-74c2e3bca8f3](https://github.com/user-attachments/assets/9aba3975-982b-4b34-9fdc-6845748d202a)
 
@@ -79,5 +79,50 @@ Berikut Hasil Kode Program diatas :
 
 ```python
 w, x, y, z = 10, 15, 20, 25
+````
+
+Variable yang seperti ini menentukan parameter, jadi variable ini tidak bisa memasukan variable huruf melainkan variable angka yang sudah ditentukan w = 10, x = 15, y = 20, z = 25
+
+```python
+print(w, x, y, z)
+````
+
+fungsi ini hanya mencetak saja yang menggunakan fungsi print(), tetapi di karenakan mencetak parameter, koma tersebut dihilangkan
+
+```python
+print(w, x, y, z, sep=',')
+````
+
+karna pemisahnya dihilangkan kita memakainya fungsi sep=',' untuk membuat pemisah yaitu (,) koma di kode program ini
+
+dan kode program seterusnyapun begitu menggunakan fungsi `sep` atau `split()` dan kita memasukan pemisahnya didalam string akan memunculkan cetakkan yang sesuai keinginan anda dalam memisahkan sesuatu parameter
+
+#STRING FORMAT
+
+![377522500-1b64d016-ee87-425d-baec-da0ff9932b64](https://github.com/user-attachments/assets/809cadc0-101f-44ab-8869-af9bd4af357c)
+
+```python
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10)) 
 ````
 
