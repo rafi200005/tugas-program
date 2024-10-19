@@ -126,3 +126,78 @@ print('{0:>3} {1:>16}'.format(9, 10**9))
 print('{0:>3} {1:>16}'.format(10, 10**10)) 
 ````
 
+String Format adalah proses memasukkan variable atau string kustom ke dalam teks yang sudah ditentukan, dan dapat digunakan untuk berbagai keperluan, seperti memasukkan judul dalam grafik, menampilkan pesan atau kesalahan, atau meneruskan kesalahan ke suatu fungsi.
+
+```python
+print(0, 10**0)
+print(1, 10**1)
+print(2, 10**2)
+print(3, 10**3)
+print(4, 10**4)
+print(5, 10**5)
+print(6, 10**5)
+print(8, 10**8)
+print(9, 10**9)
+print(10, 10**10)
+````
+
+Nilai pertama dalam setiap pasangan adalah angka dari 0 hingga 10, kode program ini dihitung dengan menggunakan operasi pangkat atau fungsinya (**) untuk menaikkan 10 ke pangkat yang sesuai dengan angka pertama, yang bisa di bahasa manusiakan variable 0 = 10 pangkat 0, variable 1 10 pangkat 1 dan seterusnya hingga variable 10 yaitu 10 pangkat 10, dan di cetak dengan fungsi print()
+
+```python
+print('{0:>3} {1:>16}'.format(0, 10**0))
+print('{0:>3} {1:>16}'.format(1, 10**1))
+print('{0:>3} {1:>16}'.format(2, 10**2))
+print('{0:>3} {1:>16}'.format(3, 10**3))
+print('{0:>3} {1:>16}'.format(4, 10**4))
+print('{0:>3} {1:>16}'.format(5, 10**5))
+print('{0:>3} {1:>16}'.format(6, 10**6))
+print('{0:>3} {1:>16}'.format(7, 10**7))
+print('{0:>3} {1:>16}'.format(8, 10**8))
+print('{0:>3} {1:>16}'.format(9, 10**9))
+print('{0:>3} {1:>16}'.format(10, 10**10))
+````
+
+Kode inimencetak 11 baris dengan format {0:3} {1:16} yang di gunakan untuk mengatur format string
+
+Pada string pertama, angka `0` di format untuk memeliki lebar 3 karakter atau yang bisa disebut 3 kali spasi dengan perataan kanan.
+
+angka 1 diformat untuk memiliki lebar 16 Karakter atau 16 kali spasi dengan perataan kanan, dan masing-masing mencetak nilai seperti format di atas dengan fungsi `print()`
+
+# CODE PROGRAM
+
+## 3 INPUT BILNGAN
+
+```python
+a = int(input("masukan angka pertama: "))
+b = int(input("masukan angka kedua: "))
+c = int(input("masukan angka ketiga: "))
+
+if a > b and a > c:
+    print(f"angka lebih besar adalah {a}")
+elif b > a and b > c:
+    print(f"angka lebih besar adalah {b}")
+else:
+    print(f"angka lebih besar adalah {c}")
+````
+
+Program ini akan menginputkan 3 bilangan dari yang a sampai dengan c.
+
+```python
+if a > b and a > c:
+    print(f"angka lebih besar adalah {a}")
+````
+
+Karna Jika {a} lebih besar dari {b} dan {a} lebih besar dari {c}, output yang keluar adalah {a}
+
+```python
+elif b > a and b > c:
+   print(f"angka lebih besar adalah {b}")
+````
+
+dan jika {b} lebih besar dari {a} dan {b} lebih besar dari {c} maka output yang keluar adalah {b}
+
+```python
+else:
+    print(f"angka lebih besar adalah {c}")
+````
+
