@@ -39,3 +39,5 @@ print('X')
 print('Y')
 print('Z')
 ````
+
+Parameter end dalam fungsi Print() di python digunakan untuk menambahkan string (" ") apapun diakhir dan mengeluarkan pernyataan Print
