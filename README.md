@@ -77,3 +77,7 @@ Berikut Hasil Kode Program diatas :
 
 ![377501444-10aeb6fc-4f8d-4007-89c3-6c97aa7a7f73](https://github.com/user-attachments/assets/694e0c8b-006f-4a0d-af8b-b26be00da208)
 
+```python
+w, x, y, z = 10, 15, 20, 25
+````
+
