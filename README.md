@@ -20,11 +20,11 @@ PRAKIKUM 3
 
 Pembahasan Mengenai :
 
-# Penggunaan End
+## Penggunaan End
 
-# Penggunaan Separator
+## Penggunaan Separator
 
-# String Format
+## String Format
 
 # PENGGUNAAN END
 
