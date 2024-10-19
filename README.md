@@ -1,4 +1,4 @@
-Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar# BIODATA
+# BIODATA
 
 NAMA : MUHAMMAD RAFI ALBANI RASYIN
 
@@ -202,3 +202,13 @@ else:
 ````
 
 Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
+
+Ini adala hasil program tersebut :
+
+![377551292-b663a7b1-cbfc-47f9-b02e-2f6e661c1fb3](https://github.com/user-attachments/assets/c4611ae5-5b98-4934-88b0-22a6e8b0bd30)
+
+dengan eksekusi program :
+
+
+
+
