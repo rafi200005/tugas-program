@@ -1,4 +1,4 @@
-# BIODATA
+Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar# BIODATA
 
 NAMA : MUHAMMAD RAFI ALBANI RASYIN
 
@@ -201,3 +201,4 @@ else:
     print(f"angka lebih besar adalah {c}")
 ````
 
+Jika inputan yang diatas lebih kecil dari {c} maka output {c} yang akan keluar
