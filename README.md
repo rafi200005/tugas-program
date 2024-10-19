@@ -56,3 +56,24 @@ dan ini hasil tanpa menggunakan fungsi `print()` di tengah pada kode program di 
 
 ![377491703-a2775246-1374-4d7d-a64c-d67a4592309b](https://github.com/user-attachments/assets/2cd3ff76-d0f8-4944-916b-603ba2803420)
 
+## PENGGUNAAN SEPERATOR
+
+![377494080-2ff0ca65-d1c7-45b0-8ab9-74c2e3bca8f3](https://github.com/user-attachments/assets/9aba3975-982b-4b34-9fdc-6845748d202a)
+
+```python
+w, x, y, z = 10, 15, 20, 25
+print(w, x, y, z)
+print(w, x, y, z, sep=',')
+print(w, x, y, z, sep='')
+print(w, x, y, z, sep=':')
+print(w, x, y, z, sep='-----')
+````
+
+Pada python penggunaan Separator dapat menggunakan Fungsi split() atau sep yang seperti dalam kode program diatas
+
+Separator ini menentukan pembatas yang digunakan untuk memisahkan string, separator dapat berupa karakter tunggal atau beberapa karakter.Jika tidak ditentukan, maka python akan menggunakan spasi sebagai pemisah.
+
+Berikut Hasil Kode Program diatas : 
+
+![377501444-10aeb6fc-4f8d-4007-89c3-6c97aa7a7f73](https://github.com/user-attachments/assets/694e0c8b-006f-4a0d-af8b-b26be00da208)
+
